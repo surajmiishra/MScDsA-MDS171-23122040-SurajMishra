@@ -1,0 +1,89 @@
+import csv
+from collections import defaultdict
+
+class RestaurantManagementSystem:
+    def __init__(self):
+        self.orders = []
+    
+    def add_order(self, order):
+        self.orders.append(order)
+    
+    def retrieve_orders(self):
+        return self.orders
+    
+    def display_insights(self):
+        if not self.orders:
+            print("No orders available.")
+            return
+        
+        # Calculate insights
+        total_orders = len(self.orders)
+        total_revenue = sum(order["total_price"] for order in self.orders)
+        most_ordered_dish = self.get_most_ordered_dish()
+        
+        # Display insights
+        print(f"Total Orders: {total_orders}")
+        print(f"Total Revenue: ${total_revenue:.2f}")
+        print(f"Most Ordered Dish: {most_ordered_dish}")
+    
+    def get_most_ordered_dish(self):
+        dish_count = defaultdict(int)
+        for order in self.orders:
+            for dish in order["items"]:
+                dish_count[dish] += 1
+        most_ordered = max(dish_count, key=dish_count.get)
+        return most_ordered
+
+def main():
+    rms = RestaurantManagementSystem()
+
+    # Load orders from a CSV file (if available)
+    try:
+        with open("orders.csv", mode="r") as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                rms.add_order({
+                    "order_id": row["order_id"],
+                    "items": row["items"].split(","),
+                    "total_price": float(row["total_price"])
+                })
+    except FileNotFoundError:
+        pass
+
+    while True:
+        print("\nCulinary Delights Restaurant Management System")
+        print("1. Add Order")
+        print("2. Display Insights")
+        print("3. Exit")
+
+        choice = input("Enter your choice: ")
+
+        if choice == "1":
+            order_id = input("Enter order ID: ")
+            items = input("Enter ordered items (comma-separated): ").split(",")
+            total_price = float(input("Enter total price: "))
+            rms.add_order({"order_id": order_id, "items": items, "total_price": total_price})
+            print("Order added successfully!")
+
+        elif choice == "2":
+            rms.display_insights()
+
+        elif choice == "3":
+            # Save orders to a CSV file before exiting
+            with open("orders.csv", mode="w", newline="") as file:
+                writer = csv.DictWriter(file, fieldnames=["order_id", "items", "total_price"])
+                writer.writeheader()
+                for order in rms.retrieve_orders():
+                    writer.writerow({
+                        "order_id": order["order_id"],
+                        "items": ",".join(order["items"]),
+                        "total_price": order["total_price"]
+                    })
+            print("Exiting RMS. Orders saved to 'orders.csv'.")
+            break
+
+        else:
+            print("Invalid choice. Please try again.")
+
+if __name__ == "__main__":
+    main()
