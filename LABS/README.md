@@ -19,5 +19,5 @@
 |Lab07|15/09/23|My Menu Driven Restaurant|["Lab07"](https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra/blob/95aa2a7694d624525bc21887aa326dabb2cae28f/Lab%2007.ipynb)
 |Lab08|18/09/23|Matrix Multiplication|["Lab08"](https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra/blob/95aa2a7694d624525bc21887aa326dabb2cae28f/Lab%2008.ipynb)
 |Lab09|22/09/23|ExpenseTracker|["Lab09"](https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra/blob/95aa2a7694d624525bc21887aa326dabb2cae28f/Lab%2009.ipynb)
-|CAC - 1|18/09/23|Genomic Calculation|["CAC- 1"](https://github.com/shubh4mk/MScDSA-MDS171-23122033/tree/main/CAC%20-%201)
-|CAC - 2|25/09/23|Flavor Hub|["CAC- 2"](https://github.com/shubh4mk/MScDSA-MDS171-23122033/tree/main/CAC%20-%202)
+|CAC - 1|18/09/23||["CAC- 1"]()
+|CAC - 2|25/09/23||["CAC- 2"]()
