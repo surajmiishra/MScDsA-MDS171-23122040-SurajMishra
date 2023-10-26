@@ -4,6 +4,7 @@ Name: Suraj Mishra
 Register Number: 23122040  
 Class: M.Sc. Data Science (A)  
 Email: suraj.mishra@msds.christuniversity.in
+
 | SL no | Lab Name | Question | link to Code |
 |---    |---       |---       |---           |
 | 1     | lab_01   | Write a prograem to print a name "n" times where name & "n" will be user input |https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra.git|
