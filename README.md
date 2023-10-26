@@ -1,13 +1,23 @@
 # MScDsA-MDS171-23122040-SurajMishra
 
-Name: Suraj Mishra  
-Register Number: 23122040  
-Class: M.Sc. Data Science (A)  
-Email: suraj.mishra@msds.christuniversity.in
+### Name : Suraj Mishra
+ ### Reg. No. : 23122040
+ ### Class : MSc Data Science
+ ### Email : suraj.mishra@msds.christuniversity.in
+<hr>
 
-| SL no | Lab Name | Question | link to Code |
-|---    |---       |---       |---           |
-| 1     | lab_01   | Write a prograem to print a name "n" times where name & "n" will be user input |https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra.git|
-| 2     | lab_02   | You are asked to create a function to help Alice from Digiterra convert the number she enters. Demonstrate the function with various inputs, including required validations. As Data Analysis students, try to bring out some analysis with these numbers!|https://github.com/shivangiscodes/MScDSB-MDS171-23122312-Shivangi/blob/main/lab02.ipynb|
-| 3     | lab_03   | For the given set of numbers who arrived for the Harmony Gathering today, can you help the people in Arithmetica find their descriptive statistics? [761, 123, 585, 275, 194, 840, 999, 622, 763, 40, 825, 687, 402, 338, 611, 987, 739, 95, 819, 568, 320, 126, 688, 948, 514, 223, 751, 379, 857, 767, 492, 162, 437, 934, 430, 343, 725, 511, 580, 678, 708, 823, 346, 179, 786, 663, 195, 890, 267, 502, 214, 300, 786, 961, 235, 559, 992, 919, 948, 318, 57, 787, 653, 317, 305, 172, 966, 182, 970, 17, 89, 624, 629, 595, 485, 752, 984, 978, 460, 124, 321, 256, 614, 852, 811, 561, 127, 207, 406, 615, 888, 391, 691, 470, 911, 401, 137, 600, 478, 682] The values that Arithmetica is looking at are: Mean,Minimum,Maximum,Range|https://github.com/shivangiscodes/MScDSB-MDS171-23122312-Shivangi/blob/main/lab03.ipynb|
-| 5    | lab_05   | detecting vowels out of user inputs|https://github.com/shivangiscodes/MScDSB-MDS171-23122312-Shivangi/blob/main/lab05.ipynb|
+### *CONTENTS*
+
+|CLASS|DATES|QUESTION|LINK|
+|-------------|-------------|---------------------------------------------|------------------|
+|Lab01|28/08/23|Write a program to print your name and push the changes to github|["Lab01"](https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra.git)
+|Lab02|29/08/23|The Name Collecter's Quest|["Lab02"](https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra/blob/95aa2a7694d624525bc21887aa326dabb2cae28f/Lab%2002.ipynb)
+|Lab03|01/09/23|The Tale of Numbers' Harmony|["Lab03"](https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra/blob/95aa2a7694d624525bc21887aa326dabb2cae28f/Lab%2003.ipynb)
+|Lab04|04/09/23|A Taste of Success: The Restaurant Management System|["Lab04"](https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra/blob/95aa2a7694d624525bc21887aa326dabb2cae28f/Lab%2004)
+|Lab05|08/09/23|Mix & Match Calculator|["Lab05"](https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra/blob/95aa2a7694d624525bc21887aa326dabb2cae28f/Lab%2005.ipynb)
+|Lab06|11/09/23|Vowel Counter!|["Lab06"](https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra/blob/95aa2a7694d624525bc21887aa326dabb2cae28f/Lab%2006.ipynb)
+|Lab07|15/09/23|My Menu Driven Restaurant|["Lab07"](https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra/blob/95aa2a7694d624525bc21887aa326dabb2cae28f/Lab%2007.ipynb)
+|Lab08|18/09/23|Matrix Multiplication|["Lab08"](https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra/blob/95aa2a7694d624525bc21887aa326dabb2cae28f/Lab%2008.ipynb)
+|Lab09|22/09/23|ExpenseTracker|["Lab09"](https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra/blob/95aa2a7694d624525bc21887aa326dabb2cae28f/Lab%2009.ipynb)
+|CAC - 1|18/09/23|Genomic Calculation|["CAC- 1"](https://github.com/shubh4mk/MScDSA-MDS171-23122033/tree/main/CAC%20-%201)
+|CAC - 2|25/09/23|Flavor Hub|["CAC- 2"](https://github.com/shubh4mk/MScDSA-MDS171-23122033/tree/main/CAC%20-%202)
