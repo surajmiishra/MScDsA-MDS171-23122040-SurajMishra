@@ -19,5 +19,6 @@
 |Lab07|15/09/23|My Menu Driven Restaurant|["Lab07"](https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra/blob/95aa2a7694d624525bc21887aa326dabb2cae28f/Lab%2007.ipynb)
 |Lab08|18/09/23|Matrix Multiplication|["Lab08"](https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra/blob/95aa2a7694d624525bc21887aa326dabb2cae28f/Lab%2008.ipynb)
 |Lab09|22/09/23|ExpenseTracker|["Lab09"](https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra/blob/95aa2a7694d624525bc21887aa326dabb2cae28f/Lab%2009.ipynb)
+|Lab10|26/09/23|Student Deatils|["Lab10"](https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra/blob/main/LABS/Lab%2010.ipynb)
 |CAC - 1|18/09/23|Billing Management Syestem|["CAC- 1"](https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra/blob/main/CAC%20-%201/CAC_Group1.py)
 |CAC - 2|25/09/23|Analysis on E-Commerce|["CAC- 2"](https://github.com/surajmiishra/MScDsA-MDS171-23122040-SurajMishra/blob/main/CAC%20-%202/Project.ipynb)
